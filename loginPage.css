@@ -1,0 +1,125 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #932228;
+  }
+
+  #bannerimage {
+    width: 100%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wku.edu%2F&psig=AOvVaw3fFdBoWhBLl3aSC3eZIj-e&ust=1604443609237000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPD-j6X45OwCFQAAAAAdAAAAABAD); 
+    height: 10px;
+    background-color: #932228;
+    background-position: center;
+  }
+
+  .sidenav-left {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav-right {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  #main-holder {
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin-top: 160px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  
+  #error-msg-second-line {
+    display: block;
+  }
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position:absolute;
+    top:50%;
+    right:0;
+    left:0;
+  }
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+  }
+  
+  .login-form-field {
+    border: none;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  #login-form-submit {
+    margin-top: 5px;
+    width: 150px;
+    padding: 7px;
+    border-width: 4px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #email-field {
+      width: 400px;
+  }
+
+  #password-field {
+      width: 400px
+  }
